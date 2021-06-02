@@ -1,10 +1,13 @@
  @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
  :root{
 	--bg-primary: #1a2238;
+	--bg-secondary:	white;
 	--title-primary: #9daaf2;
 	--title-secondary: #f4db7d;
+	--title-3: #3778c2;
 	--nav-bg: #28559a;
 	--body-primary: white;
+	--body-secondary: #343a40;
 }
 
 body{
@@ -24,7 +27,7 @@ h2{
 
 h3{
 	font-size: 55px;
-	color: var(--title-secondary);
+	color: var(--title-3);
 }
 
 h4{
@@ -34,7 +37,7 @@ h4{
 
 h5{
 	font-size: 35px;
-	color: var(--title-secondary);
+	color: var(--title-primary);
 }
 
 h6{
@@ -42,7 +45,7 @@ h6{
 	color: var(--title-secondary);
 }
 
-p{
+p, b, strong{
 	font-size: 25px;
 	color: var(--body-primary);
 }
@@ -50,4 +53,23 @@ p{
 .nav a{
 	font-size: 20px;
 	color: white;
+}
+
+.card{
+	background-color: var(--bg-secondary);
+	margin-top: 20px;
+	border: none;
+}
+
+.card-text{
+	color: var(--body-secondary);
+}
+
+.btn{
+	color: white;
+	text-decoration: none;
+}
+
+.card img{
+	width: 100%;
 }
