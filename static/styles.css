@@ -8,7 +8,7 @@
 	--nav-bg: #28559a;
 	--body-primary: white;
 	--body-secondary: #343a40;
-	--footer: #292929;
+	--footer: #212529;
 }
 
 body{
@@ -61,19 +61,8 @@ p, b, strong, li{
 	color: var(--body-primary);
 }
 
-.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-   background-color: var(--nav-bg);
-}
-
-.nav a:hover{
-	color: white;
-	text-decoration: underline;
-	transition: 1s;
-}
-
-.nav a{
-	font-size: 20px;
-	color: white;
+.nav-brand a,i{
+	font-size: 40px;
 }
 
 .card{
