@@ -1,0 +1,53 @@
+ @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
+ :root{
+	--bg-primary: #1a2238;
+	--title-primary: #9daaf2;
+	--title-secondary: #f4db7d;
+	--nav-bg: #28559a;
+	--body-primary: white;
+}
+
+body{
+    font-family: 'Play', sans-serif;
+    background: var(--bg-primary);
+}
+
+h1{
+	font-size: 80px;
+	color: var(--title-primary);
+}
+
+h2{
+	font-size: 65px;
+	color: var(--title-secondary);
+}
+
+h3{
+	font-size: 55px;
+	color: var(--title-secondary);
+}
+
+h4{
+	font-size: 45px;
+	color: var(--title-secondary);
+}
+
+h5{
+	font-size: 35px;
+	color: var(--title-secondary);
+}
+
+h6{
+	font-size: 30px;
+	color: var(--title-secondary);
+}
+
+p{
+	font-size: 25px;
+	color: var(--body-primary);
+}
+
+.nav a{
+	font-size: 20px;
+	color: white;
+}
