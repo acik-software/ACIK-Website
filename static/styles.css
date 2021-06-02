@@ -1,10 +1,10 @@
  @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
  :root{
 	--bg-primary: #1a2238;
+	/*--bg-primary: #343f4f;*/
 	--bg-secondary:	white;
-	--title-primary: #9daaf2;
+	--title-primary: #3778c2;
 	--title-secondary: #f4db7d;
-	--title-3: #3778c2;
 	--nav-bg: #28559a;
 	--body-primary: white;
 	--body-secondary: #343a40;
@@ -46,7 +46,7 @@ h6{
 	color: var(--title-secondary);
 }
 
-p, b, strong{
+p, b, strong, li{
 	font-size: 25px;
 	color: var(--body-primary);
 }
@@ -73,4 +73,19 @@ p, b, strong{
 
 .card img{
 	width: 100%;
+}
+
+
+@keyframes type{
+	0% {width: 0ch;}
+	100% {width: 13ch;}
+}
+
+.type-1{
+	animation: type 2s steps(13);
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: consolas;
+	border-right: 4px solid white;
+	width: 13ch;
 }
