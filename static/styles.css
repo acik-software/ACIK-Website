@@ -17,7 +17,8 @@ body{
 
 h1{
 	font-size: 80px;
-	color: var(--title-primary);
+	font-weight: bold;
+	color: white;
 }
 
 h2{
@@ -27,7 +28,7 @@ h2{
 
 h3{
 	font-size: 55px;
-	color: var(--title-3);
+	color: var(--title-primary);
 }
 
 h4{
