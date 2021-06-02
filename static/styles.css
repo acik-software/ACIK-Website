@@ -16,6 +16,7 @@ body{
     font-family: 'Play', sans-serif;
     background: var(--bg-primary);
     margin-bottom: 0px;
+    overflow-x: hidden;
 }
 
 footer{
@@ -120,3 +121,28 @@ p, b, strong, li{
 .footer-custom{
 	background-color: var(--footer);
 }
+
+.transition-slide{
+	transition: 350ms;
+	transform: translateX(0);
+}
+
+html.is-animating .transition-slide{
+	transform: translateX(-100%);
+}
+
+html.is-leaving .transition-slide{
+	transform: translateX(100%);
+}
+
+.transition-navbar{
+	transition: 350ms;
+	transform: translateY(0);
+}
+
+html.is-animating .transition-navbar{
+	transform: translateY(-150%);
+}
+
+html.is-leaving .transition-navbar{
+	transform: translateY(-150%);
