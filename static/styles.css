@@ -4,6 +4,7 @@
 	/*--bg-primary: #343f4f;*/
 	--bg-secondary:	white;
 	--title-primary: #3778c2;
+	--subheading: #4b9fe1;
 	--title-secondary: #f4db7d;
 	--nav-bg: #28559a;
 	--body-primary: white;
@@ -53,7 +54,7 @@ h5{
 
 h6{
 	font-size: 30px;
-	color: var(--title-secondary);
+	color: var(--subheading);
 }
 
 p, b, strong, li{
@@ -82,6 +83,10 @@ p, b, strong, li{
 
 .card img{
 	width: 100%;
+}
+
+.contact-description p,b{
+	color: var(--body-secondary);
 }
 
 .typewriter{
