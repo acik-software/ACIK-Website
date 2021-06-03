@@ -35,7 +35,7 @@ h1{
 
 h2{
 	font-size: 65px;
-	color: var(--title-secondary);
+	color: white;
 }
 
 h3{
@@ -45,7 +45,7 @@ h3{
 
 h4{
 	font-size: 45px;
-	color: var(--title-secondary);
+	color: var(--title-primary);
 }
 
 h5{
@@ -58,7 +58,7 @@ h6{
 	color: var(--subheading);
 }
 
-p, b, strong, li{
+p,b,strong,li{
 	font-size: 25px;
 	color: var(--body-primary);
 }
@@ -75,6 +75,11 @@ p, b, strong, li{
 
 .card-text{
 	color: var(--body-secondary);
+	font-size: 20px;
+}
+
+.card-text b{
+	color: var(--body-secondary);
 }
 
 .btn{
@@ -84,15 +89,6 @@ p, b, strong, li{
 
 .card img{
 	width: 100%;
-}
-
-.contact-description p,b{
-	font-size: 20px;
-	color: var(--body-secondary);
-}
-
-.contact-description p,a{
-	font-size: 20px;
 }
 
 .typewriter{
