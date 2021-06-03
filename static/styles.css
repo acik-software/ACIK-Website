@@ -87,7 +87,12 @@ p, b, strong, li{
 }
 
 .contact-description p,b{
+	font-size: 20px;
 	color: var(--body-secondary);
+}
+
+.contact-description p,a{
+	font-size: 20px;
 }
 
 .typewriter{
