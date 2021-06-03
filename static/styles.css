@@ -80,6 +80,11 @@ p,b,strong,li{
 
 .card-text b{
 	color: var(--body-secondary);
+	font-size: 20px;
+}
+
+.card-body a{
+	font-size: 20px;
 }
 
 .btn{
