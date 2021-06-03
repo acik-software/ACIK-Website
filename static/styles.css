@@ -12,19 +12,12 @@
 	--footer: #212529;
 }
 
-body{
+html, body{
+	height: 100%;
     font-family: 'Play', sans-serif;
     background: var(--bg-primary);
     margin-bottom: 0px;
     overflow-x: hidden;
-}
-
-footer{
-	bottom: 0px;
-	left: 0px;
-	right: 0px;
-	margin-bottom: 0px;
-	height: 80px;
 }
 
 h1{
@@ -118,14 +111,29 @@ p,b,strong,li{
 	50% {border-color: white;}
 }
 
-.footer-link{
-	text-decoration: none;
-	padding: 5px;
-	color: black;
+footer{
+	position: relative;
+	height: 100px;
+	background-color: var(--footer);
 }
 
-.footer-custom{
-	background-color: var(--footer);
+.page-wrapper{
+	min-height: 100%;
+}
+
+.footer .footer-content{
+	position: absolute;
+	text-align: center;
+	bottom: 0px;
+	left: 0px;
+	right: 0px;
+	width: 100%;
+}
+
+.footer-link{
+	text-decoration: none;
+	padding: 10px;
+	color: black;
 }
 
 .transition-slide{
