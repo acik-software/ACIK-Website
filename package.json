@@ -1,0 +1,23 @@
+{
+  "name": "swup",
+  "version": "2.0.14",
+  "description": "swup",
+  "main": "index.js",
+  "dependencies": {
+    "swup": "^2.0.14"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/acik-software/acik-website.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/acik-software/acik-website/issues"
+  },
+  "homepage": "https://github.com/acik-software/acik-website#readme"
+}
