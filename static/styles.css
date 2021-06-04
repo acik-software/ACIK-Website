@@ -1,14 +1,14 @@
  @import url('https://fonts.googleapis.com/css2?family=Play&display=swap');
  :root{
-	--bg-primary: #3c415c;
-	/*--bg-primary: #343f4f;*/
-	--bg-secondary:	white;
-	--title-primary: #3778c2;
+	--bg-primary: white;
+	/*--bg-primary: #3c415c;*/
+	--bg-secondary:	#a2a2a226;;
+	--title-primary: white;
 	--subheading: #4b9fe1;
 	--title-secondary: #f4db7d;
-	--nav-bg: #28559a;
-	--body-primary: white;
-	--body-secondary: #343a40;
+	--nav-bg: #ff0000;
+	--body-primary: #343a40;
+	--body-secondary: white;
 	--footer: #212529;
 }
 
@@ -23,12 +23,12 @@ html, body{
 h1{
 	font-size: 80px;
 	font-weight: bold;
-	color: white;
+	color: var(--body-primary);
 }
 
 h2{
 	font-size: 65px;
-	color: white;
+	color: var(--body-primary);
 }
 
 h3{
@@ -59,6 +59,7 @@ p,b,strong,li{
 .navbar{
 	padding-top: 0px;
 	padding-bottom: 0px;
+	background-color: var(--nav-bg);
 }
 
 .nav-brand a,i{
@@ -75,11 +76,31 @@ p,b,strong,li{
 	border-color: white;
 }
 
+.page-title{
+	border-bottom: 5px solid var(--body-primary);
+	padding-bottom: 5px;
+}
+
 #particle-js{
+	align-items: center;
+	justify-content: center;
+	position: relative;
 	width: 100%;
-	height: 100%;
+	height: 100vh;
 	background: var(--bg-primary);
-	background-size: cover;
+}
+
+.particles-content{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.welcome-text{
+	text-decoration: underline;
+	font-family: consolas;
 }
 
 .card{
@@ -89,13 +110,17 @@ p,b,strong,li{
 }
 
 .card-text{
-	color: var(--body-secondary);
+	color: var(--body-primary);
 	font-size: 20px;
 }
 
 .card-text b{
-	color: var(--body-secondary);
+	color: var(--body-primary);
 	font-size: 20px;
+}
+
+.card-title h1,h2,h3,h4,h5,h6{
+	color: var(--body-primary);
 }
 
 .card-body a{
@@ -104,6 +129,8 @@ p,b,strong,li{
 
 .btn{
 	color: white;
+	background-color: #2ddd8c;
+	border: none;
 	text-decoration: none;
 }
 
@@ -111,14 +138,13 @@ p,b,strong,li{
 	width: 100%;
 }
 
-/*
+
 .typewriter{
 	overflow: hidden;
-	border-right: 4px solid white;
+	border-right: 4px solid #343a40;
 	white-space: nowrap;
 	margin: 0 auto;
 	font-family: monospace;
-	letter-spacing: .35em;
 	animation: 
 		typing 1.7s steps(30, end), 
 		blink-caret .7s step-end infinite;
@@ -126,14 +152,14 @@ p,b,strong,li{
 
 @keyframes typing{
 	from {width: 0;}
-	to {width: 696.8px;}
+	to {width: 1204px;}
 }
 
 @keyframes blink-caret{
 	from, to {border-color: transparent;}
-	50% {border-color: white;}
+	50% {border-color: #343a40;}
 }
-*/
+
 
 footer{
 	position: relative;
