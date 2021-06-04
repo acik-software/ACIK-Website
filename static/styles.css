@@ -56,8 +56,30 @@ p,b,strong,li{
 	color: var(--body-primary);
 }
 
+.navbar{
+	padding-top: 0px;
+	padding-bottom: 0px;
+}
+
 .nav-brand a,i{
 	font-size: 40px;
+}
+
+.nav-item a{
+	padding-top: 2px;
+	padding-bottom: 2px;
+	border-bottom: 3px solid #6c757d;
+}
+
+.nav-item .active{
+	border-color: white;
+}
+
+#particle-js{
+	width: 100%;
+	height: 100%;
+	background: var(--bg-primary);
+	background-size: cover;
 }
 
 .card{
@@ -89,6 +111,7 @@ p,b,strong,li{
 	width: 100%;
 }
 
+/*
 .typewriter{
 	overflow: hidden;
 	border-right: 4px solid white;
@@ -110,6 +133,7 @@ p,b,strong,li{
 	from, to {border-color: transparent;}
 	50% {border-color: white;}
 }
+*/
 
 footer{
 	position: relative;
