@@ -184,3 +184,17 @@ html.is-animating .transition-navbar{
 
 html.is-leaving .transition-navbar{
 	transform: translateY(-150%);
+}
+/*Starting from here is the css code for the timeline page.*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+.container{
+	min-height: 100vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content:center
+}
