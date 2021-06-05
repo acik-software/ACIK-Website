@@ -231,12 +231,14 @@ html.is-leaving .transition-navbar{
 	margin-bottom: 0;
 }
 .timeline-content h1 {
+	color: white;
 	font-size: 25px;
 	font-weight: 500;
 	line-height: 30px;
 	margin-bottom: 10px;
 }
 .timeline-content p {
+	color: white;
 	font-size: 16px;
 	line-height: 30px;
 	font-weight: 300;
