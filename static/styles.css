@@ -89,12 +89,14 @@ p,b,strong,li{
 
 .welcome{
 	position: relative;
-	width: 100%;
-	top: 40vh;
-	text-align: center;
+
 }
 
-.welcome h1{
+.welcome-text{
+	position: absolute;
+	top: 40vh;
+	width: 100%;
+	text-align: center;
 	text-decoration: underline;
 	font-family: consolas;
 }
