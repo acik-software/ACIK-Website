@@ -204,16 +204,56 @@ html.is-leaving .transition-navbar{
 */
 
 /*Starting from here is the css code for the timeline page.*/
-.container-timeline{
+.container-for-timeline{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
 
-.container-timeline{
+.timeline{
 	min-height: 100vh;
 	width: 100%;
 	display: flex;
 	align-items: center;
 	justify-content:center
+}
+.timeline ul{
+	list-style: none;
+}
+.timeline ul li {
+	padding: 20px;
+	background-color: #212529;
+	color: white;
+	border-radius: 10px;
+	margin-bottom: 10px;
+}
+.timeline ul li:last-child{
+	margin-bottom: 0;
+}
+.timeline-content h1 {
+	font-size: 25px;
+	font-weight: 500;
+	line-height: 30px;
+	margin-bottom: 10px;
+}
+.timeline-content p {
+	font-size: 16px;
+	line-height: 30px;
+	font-weight: 300;
+}
+
+@media only screen and (min-width: 768px) {
+	.timeline ul li {
+		width: 50%;
+		margin-bottom: 50px;
+		position: relative;
+	}
+	.timeline ul li:nth-child(odd) {
+		float: left;
+		clear: right;
+	}
+	.timeline ul li:nth-child(even) {
+		float: right;
+		clear: left;
+	}
 }
