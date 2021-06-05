@@ -57,6 +57,15 @@ p,b,strong,li{
 	color: var(--body-primary);
 }
 
+.home-button{
+	background-color: #2ddd8c;
+	border: none;
+	padding: 20px;
+	border-radius: 25px;
+	color: white;
+	font-size: 25px;
+}
+
 .navbar{
 	padding-top: 0px;
 	padding-bottom: 0px;
@@ -92,7 +101,7 @@ p,b,strong,li{
 
 .welcome-text{
 	position: absolute;
-	top: 40vh;
+	top: 35vh;
 	width: 100%;
 	margin-left: auto;
 	margin-right: auto;
@@ -145,16 +154,15 @@ p,b,strong,li{
 	50% {border-color: #343a40;}
 }
 
+.page-wrapper{
+	min-height: 100%;
+}
 
 footer{
 	position: relative;
 	height: 85px;
 	width: 100%;
 	background-color: var(--footer);
-}
-
-.page-wrapper{
-	min-height: 100%;
 }
 
 .footer .footer-content{
@@ -218,9 +226,11 @@ html.is-leaving .transition-navbar{
 	align-items: center;
 	justify-content:center
 }
+
 .timeline ul{
 	list-style: none;
 }
+
 .timeline ul li {
 	padding: 20px;
 	background-color: #212529;
@@ -228,21 +238,17 @@ html.is-leaving .transition-navbar{
 	border-radius: 10px;
 	margin-bottom: 10px;
 }
+
 .timeline ul li:last-child{
 	margin-bottom: 0;
 }
-.timeline-content h1 {
-	color: white;
-	font-size: 25px;
-	font-weight: 500;
-	line-height: 30px;
-	margin-bottom: 10px;
+
+.timeline-content h2{
+	color: var(--title-primary);
 }
-.timeline-content p {
-	color: white;
-	font-size: 16px;
-	line-height: 30px;
-	font-weight: 300;
+
+.timeline-content p{
+	color: var(--body-secondary);
 }
 
 @media only screen and (min-width: 768px) {
