@@ -84,6 +84,7 @@ p,b,strong,li{
 
 #particle-js{
 	height: 100%;
+	position: relative;
 }
 
 .welcome{
@@ -97,13 +98,9 @@ p,b,strong,li{
 	background-color: var(--bg-secondary);
 	border-radius: 25px;
 	padding: 20px;
-	/*top: 25vh;
-	width: 40%;
-	margin-left: 30%;
-	margin-right: 30%;*/
 	top: 50%;
 	left: 50%;
-	transform: translate(-50%,90%);
+	transform: translate(-50%,-50%);
 	text-align: center;
 	text-transform: uppercase;
 }
@@ -241,6 +238,7 @@ html.is-leaving .transition-navbar{
 */
 
 /*Starting from here is the css code for the timeline page.*/
+
 .container-for-timeline{
 	margin: 0;
 	padding: 0;
