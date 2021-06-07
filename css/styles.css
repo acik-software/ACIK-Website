@@ -199,7 +199,6 @@ p,b,strong,li{
 		display: flex;
 		align-items: center;
 	}
-	
 }
 
 .btn{
@@ -349,7 +348,7 @@ html.is-leaving .transition-navbar{
 		position: absolute;
 		width: 3px;
 		background-color: gray;
-		left: 50%
+		left: 50%;
 		transform: translateX(-50%);
 	}
 
