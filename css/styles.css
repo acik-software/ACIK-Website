@@ -172,6 +172,10 @@ p,b,strong,li{
 		color: #6c757d;
 	}
 
+	.mobile-nav-link:hover{
+		color: white; 
+	}
+
 	.m-active{
 		color: white;
 	}
