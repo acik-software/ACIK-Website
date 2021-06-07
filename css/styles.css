@@ -149,8 +149,9 @@ p,b,strong,li{
 }
 
 @media only screen and (max-width: 768px){
-	.nav
-
+	.card-col{
+		width: 100%;
+	}
 
 	.contact-card .card-body .row{
 		flex-direction: column;
@@ -305,6 +306,7 @@ html.is-leaving .transition-navbar{
 
 .timeline ul{
 	list-style: none;
+	padding: 0;
 }
 
 .timeline ul li {
@@ -327,6 +329,15 @@ html.is-leaving .transition-navbar{
 	color: var(--body-secondary);
 }
 
+.timeline h4{
+	font-size: 40px;
+	color: gray;
+}
+
+.timeline h3{
+	color: white;
+}
+
 @media only screen and (min-width: 768px) {
 	.timeline{
 		position: relative;
@@ -340,16 +351,6 @@ html.is-leaving .transition-navbar{
 		background-color: gray;
 		left: 50%
 		transform: translateX(-50%);
-	}
-
-	.timeline h4{
-		font-size: 40px;
-		color: gray;
-		padding-top: 5px;
-	}
-
-	.timeline h3{
-		color: white;
 	}
 
 	.timeline ul li{
@@ -366,6 +367,7 @@ html.is-leaving .transition-navbar{
 	.timeline ul li:nth-child(even) {
 		float: right;
 		clear: left;
+		transform: translateX(30px);
 	}
 	
 	/*.timeline ul li::after{
